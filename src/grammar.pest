@@ -1,0 +1,11 @@
+// grammar for roman_arithmetic
+
+WHITESPACE = _{ " " | "\t" | "\n" }
+
+digit = _{ "I" | "V" | "X" | "L" | "C" | "D" | "M" }
+roman = @{ digit+ }
+
+
+factor = { roman | "(" ~ expr ~ ")" }
+term = { factor ~ (("*" | "/") ~ factor)* }
+expr = { term ~ (("+" | "-") ~ term)* }

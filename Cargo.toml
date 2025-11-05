@@ -1,0 +1,11 @@
+[package]
+name = "roman_arithmetic"
+version = "0.1.0"
+edition = "2024"
+license = "MIT"
+description = "This project is a parser of simple arithmetic expressions with Roman numerals."
+
+[dependencies]
+pest = "2.7" 
+pest_derive = "2.7"
+anyhow = "1.0.100"
