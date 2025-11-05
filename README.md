@@ -1,6 +1,6 @@
 ### My Parser
 
-**Roman Arithmetic**
+**Roman Arithmetic** 
 (roman_arithmetic)
 
 This project is a parser of simple arithmetic expressions with Roman numerals. 
@@ -14,5 +14,6 @@ It includes:
 
 ### Example
 
-input: II + X * V
-output: LII
+input: ```II + X * V```
+
+output: ```LII```
