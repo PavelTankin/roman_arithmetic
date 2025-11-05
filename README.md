@@ -1,6 +1,4 @@
-### My Parser
-
-**Roman Arithmetic** 
+### Roman Arithmetic
 (roman_arithmetic)
 
 This project is a parser of simple arithmetic expressions with Roman numerals. 
